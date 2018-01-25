@@ -1,0 +1,83 @@
+body {
+  font: Helvetica, sans-serif; }
+
+.jumbotron-fluid {
+  background-image: url("./../images/skyline.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 2px 2px black; }
+
+.logo {
+  height: 150px; }
+
+.footer {
+  background-color: #414141;
+  color: white;
+  padding: 15px;
+  margin-top: 15px; }
+
+footer {
+  margin-bottom: 0; }
+
+.navbar-dark {
+  background-color: rgba(0, 115, 168, 0); }
+
+/* Style all font awesome icons */
+.fa {
+  padding: 7px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #0073a8;
+  color: white; }
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7; }
+
+.footer-link {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.footer-link:hover {
+  color: #0073a8; }
+
+.second-footer {
+  background-color: #0073a8;
+  margin-bottom: 0px;
+  color: white; }
+
+.footer-address {
+  font-size: 12px;
+  margin-bottom: 0px; }
+
+.footer-quote {
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  color: #ececec;
+  margin-bottom: 0px; }
+
+.footer-copyright {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px; }
+
+.jumbotron > .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.featured .title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: 15px; }
